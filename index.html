@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Right Living Properties</title>
+</head>
+
+<body>
+  <div id="root">
+    <main>
+      <header>
+        <h1>Right Living Properties</h1>
+      </header>
+      <section class="container border border-3 p-3">
+        <h2>Search for properties</h2>
+        <form id="form" class="row">
+          <div class="form-field row">
+            <fieldset class="col-auto">
+              <label for="postcode" class="form-label">Postcode</label>
+              <input type="text" id="postcode" name="postcode" class="form-control" />
+            </fieldset>
+            <fieldset class="form-input col-auto">
+              <label for="property-type" class="form-label">Property type</label>
+              <select name="property-type" id="property-type" class="form-select">
+                <option value="house">House</option>
+                <option value="flat">Flat</option>
+                <option value="any">Any</option>
+              </select>
+            </fieldset>
+          </div>
+          <div class="form-field row">
+            <label for="bedrooms" class="form-label">No. of bedrooms</label>
+            <fieldset class="col-auto">
+              <select id="min-bedrooms" name="min-bedrooms" class="form-select">
+                <option value="studio">Studio</option>
+                <option value="studio">1</option>
+                <option value="studio">2</option>
+                <option value="studio">3</option>
+                <option value="studio">4</option>
+                <option value="studio">5</option>
+              </select>
+            </fieldset>
+            <fieldset class="col-auto">
+              <select id="max-bedrooms" name="max-bedrooms" class="form-select">
+                <option value="studio">Studio</option>
+                <option value="studio">1</option>
+                <option value="studio">2</option>
+                <option value="studio">3</option>
+                <option value="studio">4</option>
+                <option value="studio">5</option>
+              </select>
+            </fieldset>
+          </div>
+          <div class="form-field row">
+            <label for="min-price" class="form-label">Price range</label>
+            <fieldset class="col-auto">
+              <select name="min-price" id="min-price" class="form-select">
+                <option value="">No min</option>
+                <option value="50000">50,000</option>
+                <option value="60000">60,000</option>
+                <option value="70000">70,000</option>
+                <option value="80000">80,000</option>
+                <option value="90000">90,000</option>
+                <option value="100000">100,000</option>
+              </select>
+            </fieldset>
+            <fieldset class="col-auto">
+              <select name="max-price" id="max-price" class="form-select">
+                <option value="">No max</option>
+                <option value="50000">50,000</option>
+                <option value="60000">60,000</option>
+                <option value="70000">70,000</option>
+                <option value="80000">80,000</option>
+                <option value="90000">90,000</option>
+                <option value="100000">100,000</option>
+              </select>
+            </fieldset>
+          </div>
+          <div class="form-field row">
+            <label for="date-added" class="form-label">Date added</label>
+            <input type="date" id="date-added" name="date-added" class="form-control" />
+          </div>
+          <div class="form-input submit-btn-container">
+            <button type="submit" class="btn btn-primary">Search</button>
+          </div>
+        </form>
+      </section>
+      <section class="recent-properties container p-3">
+        <h2>Take a look at some of our recent listings</h2>
+        <div id="recent-properties" class="recent-properties"></div>
+      </section>
+    </main>
+  </div>
+  <script src="index.js"></script>
+  <script id="property-data" type="application/json">
+    [
+	{
+		"id": "prop1",
+		"type": "Terraced",
+		"bedrooms": 2,
+		"price": 385000,
+		"tenure": "Freehold",
+		"description": "Thomas Brown Estates are delighted to offer this two double bedroom terrace Victorian cottage, situated in a quiet no through road, being offered to the market with no forward chain boasting Broomhill Common, Orpington High Street and Station within walking distance. The accommodation on offer comprises: lounge, kitchen/diner and a bathroom to the ground floor. To the first floor are two double bedrooms. Externally there is a low maintenance garden to the rear and on street parking to the front. New Road is well located for Orpington mainline station (Zone 6), Orpington High Street, bus routes and schools. Please call Thomas Brown Estates to arrange an appointment to view to fully appreciate the quality of location on offer.",
+		"location": "New Road, Orpington",
+		"postcode": "BR6",
+		"pictures": [
+			"./assets/images/prop1/52490_100972011806_IMG_00_0000.jpeg",
+			"./assets/images/prop1/52490_100972011806_IMG_01_0000.jpeg",
+			"./assets/images/prop1/52490_100972011806_IMG_02_0000.jpeg",
+			"./assets/images/prop1/52490_100972011806_IMG_03_0000.jpeg",
+			"./assets/images/prop1/52490_100972011806_IMG_04_0000.jpeg",
+			"./assets/images/prop1/52490_100972011806_IMG_05_0000.jpeg"
+		],
+		"url": "./properties/prop1.html",
+		"added": {
+			"month": "March",
+			"day": 25,
+			"year": 2024
+		}
+	},
+	{
+		"id": "prop2",
+		"type": "Mews",
+		"bedrooms": 3,
+		"price": 1300000,
+		"tenure": "Freehold",
+		"description": "Ravensbourne is a prestigious development of apartments and four contemporary townhouses with electric gates and underground parking, set in a highly desirable enclave of Keston, backing onto the lower of the Keston ponds. The former house was once owned by the Bonham Carter family and recently developed and extended by London developers Ktesius. A short walk away is Keston Village with its many rural walks, local post office, popular coffee shops and The Greyhound public house at Commonside. Local schools include Keston Village primary and Ravenswood secondary schools.",
+		"location": "Ravensbourne, Westerham Road, Keston",
+		"postcode": "BR2",
+		"pictures": [
+			"./assets/images/prop2/4888_FAT160373_IMG_00_0000.jpeg",
+			"./assets/images/prop2/4888_FAT160373_IMG_01_0000.jpeg",
+			"./assets/images/prop2/4888_FAT160373_IMG_02_0000.jpeg",
+			"./assets/images/prop2/4888_FAT160373_IMG_03_0000.jpeg",
+			"./assets/images/prop2/4888_FAT160373_IMG_04_0000.jpeg",
+			"./assets/images/prop2/4888_FAT160373_IMG_05_0000.jpeg"
+		],
+		"url": "properties/prop2.html",
+		"added": {
+			"month": "March",
+			"day": 9,
+			"year": 2024
+		}
+	},
+	{
+		"id": "prop3",
+		"type": "Apartment",
+		"bedrooms": 2,
+		"price": 475000,
+		"tenure": "Leasehold",
+		"description": "Superb two bedroom, two bathroom modern apartment in the beating heart of Leyton. Within walking distance of transport options and local amenities, you have the added benefit of being close to the luscious green expanse of Hackney Marshes. Inside, the decor is contemporary and spotless, with an abundance of light thanks to the floor to ceiling windows throughout. Your two balconies offer some peaceful outdoor space, as well as the large open plan living space.",
+		"location": "Oliver Road, Leyton",
+		"postcode": "E10",
+		"pictures": [
+			"./assets/images/prop3/114391_32970649_IMG_00_0000.jpeg",
+			"./assets/images/prop3/114391_32970649_IMG_02_0000.jpeg",
+			"./assets/images/prop3/114391_32970649_IMG_03_0000.jpeg",
+			"./assets/images/prop3/114391_32970649_IMG_08_0000.jpeg",
+			"./assets/images/prop3/114391_32970649_IMG_11_0000.jpeg",
+			"./assets/images/prop3/114391_32970649_IMG_19_0000.jpeg"
+		],
+		"url": "properties/prop3.html",
+		"added": {
+			"month": "March",
+			"day": 24,
+			"year": 2024
+		}
+	},
+	{
+		"id": "prop4",
+		"type": "Bungalow",
+		"bedrooms": 5,
+		"price": 1750000,
+		"tenure": "Freehold",
+		"description": "Having been in the family for three generations, internally this charming, over 4000 sq ft property offers ample potential for renovation to suit modern living. On the ground floor a large kitchen space, which features a traditional AGA, and dining space offers access to both the rear garden and the side of the property. Additionally three large reception rooms are complemented by a downstairs WC, storage and direct access to the garage. Throughout the property charming characteristics can be found including stain glass windows, high ceilings and original Edwardian features",
+		"location": "Kings Avenue, Woodford Green",
+		"postcode": "IG8",
+		"pictures": [
+			"./assets/images/prop4/203339_32681492_IMG_00_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_01_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_02_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_03_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_14_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_36_0000.jpeg"
+		],
+		"url": "properties/prop4.html",
+		"added": {
+			"month": "September",
+			"day": 14,
+			"year": 2022
+		}
+	},
+	{
+		"id": "prop5",
+		"type": "Apartment",
+		"bedrooms": 2,
+		"price": 470000,
+		"tenure": "Leasehold",
+		"description": "This PET FRIENDLY APARTMENT has 2 BEDS and 2 BATHROOMS (en-suite to the main bedroom). DUAL ASPECT APARTMENT on the 8th floor of a BRAND NEW residential block, a stones throw from Meridian Water Train Station, bus routs and shops as well as eateries, coffee shops, park lands, the Internationally Renowned Walthamstow Wet Lands and Canal Ways ideal for ramblers, runners and cyclists alike.",
+		"location": "Meridian Way, London, N18 2DX",
+		"postcode": "N18",
+		"pictures": [
+			"./assets/images/prop5/252575_140923A807_IMG_00_0000.jpeg",
+			"./assets/images/prop5/252575_140923A807_IMG_01_0000.png",
+			"./assets/images/prop5/252575_140923A807_IMG_02_0000.jpeg",
+			"./assets/images/prop5/252575_140923A807_IMG_03_0000.jpeg",
+			"./assets/images/prop5/252575_140923A807_IMG_04_0000.jpeg",
+			"./assets/images/prop5/252575_140923A807_IMG_05_0000.jpeg"
+		],
+		"url": "properties/prop4.html",
+		"added": {
+			"month": "March",
+			"day": 9,
+			"year": 2023
+		}
+	},
+	{
+		"id": "prop6",
+		"type": "Bungalow",
+		"bedrooms": 5,
+		"price": 1750000,
+		"tenure": "Freehold",
+		"description": "Having been in the family for three generations, internally this charming, over 4000 sq ft property offers ample potential for renovation to suit modern living. On the ground floor a large kitchen space, which features a traditional AGA, and dining space offers access to both the rear garden and the side of the property. Additionally three large reception rooms are complemented by a downstairs WC, storage and direct access to the garage. Throughout the property charming characteristics can be found including stain glass windows, high ceilings and original Edwardian features",
+		"location": "Kings Avenue, Woodford Green",
+		"postcode": "IG8",
+		"pictures": [
+			"./assets/images/prop4/203339_32681492_IMG_00_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_01_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_02_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_03_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_14_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_36_0000.jpeg"
+		],
+		"url": "properties/prop4.html",
+		"added": {
+			"month": "September",
+			"day": 14,
+			"year": 2022
+		}
+	},
+	{
+		"id": "prop7",
+		"type": "Bungalow",
+		"bedrooms": 5,
+		"price": 1750000,
+		"tenure": "Freehold",
+		"description": "Having been in the family for three generations, internally this charming, over 4000 sq ft property offers ample potential for renovation to suit modern living. On the ground floor a large kitchen space, which features a traditional AGA, and dining space offers access to both the rear garden and the side of the property. Additionally three large reception rooms are complemented by a downstairs WC, storage and direct access to the garage. Throughout the property charming characteristics can be found including stain glass windows, high ceilings and original Edwardian features",
+		"location": "Kings Avenue, Woodford Green",
+		"postcode": "IG8",
+		"pictures": [
+			"./assets/images/prop4/203339_32681492_IMG_00_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_01_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_02_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_03_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_14_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_36_0000.jpeg"
+		],
+		"url": "properties/prop4.html",
+		"added": {
+			"month": "September",
+			"day": 14,
+			"year": 2022
+		}
+	},
+	{
+		"id": "prop8",
+		"type": "Bungalow",
+		"bedrooms": 5,
+		"price": 1750000,
+		"tenure": "Freehold",
+		"description": "Having been in the family for three generations, internally this charming, over 4000 sq ft property offers ample potential for renovation to suit modern living. On the ground floor a large kitchen space, which features a traditional AGA, and dining space offers access to both the rear garden and the side of the property. Additionally three large reception rooms are complemented by a downstairs WC, storage and direct access to the garage. Throughout the property charming characteristics can be found including stain glass windows, high ceilings and original Edwardian features",
+		"location": "Kings Avenue, Woodford Green",
+		"postcode": "IG8",
+		"pictures": [
+			"./assets/images/prop4/203339_32681492_IMG_00_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_01_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_02_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_03_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_14_0000.jpeg",
+			"./assets/images/prop4/203339_32681492_IMG_36_0000.jpeg"
+		],
+		"url": "properties/prop4.html",
+		"added": {
+			"month": "September",
+			"day": 14,
+			"year": 2022
+		}
+	}
+]
+
+  </script>
+</body>
+
+</html>

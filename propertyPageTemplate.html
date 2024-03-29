@@ -1,0 +1,42 @@
+<template id="property-page-template">
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Template for page content -->
+    <template id="page-template">
+      <div>
+        <h1>Title</h1>
+        <p>This is some content for the dynamically created page.</p>
+      </div>
+    </template>
+
+    <!-- Container to hold dynamically created pages -->
+    <div id="page-container"></div>
+
+    <script>
+      // Function to create a new page from template
+      function createPage() {
+        // Get the template content
+        const template = document.getElementById('page-template');
+
+        // Clone the content of the template
+        const clone = document.importNode(template.content, true);
+
+        // Append the cloned content to the page container
+        document.getElementById('page-container').appendChild(clone);
+      }
+
+      // Call the createPage function to generate a new page
+      createPage();
+    </script>
+  </body>
+
+  </html>
+</template>
