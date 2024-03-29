@@ -112,7 +112,7 @@
 			"./assets/images/prop5/252575_140923A807_IMG_04_0000.jpeg",
 			"./assets/images/prop5/252575_140923A807_IMG_05_0000.jpeg"
 		],
-		"url": "properties/prop4.html",
+		"url": "properties/prop5.html",
 		"added": {
 			"month": "March",
 			"day": 9,
@@ -121,74 +121,74 @@
 	},
 	{
 		"id": "prop6",
-		"type": "Bungalow",
-		"bedrooms": 5,
-		"price": 1750000,
-		"tenure": "Freehold",
-		"description": "Having been in the family for three generations, internally this charming, over 4000 sq ft property offers ample potential for renovation to suit modern living. On the ground floor a large kitchen space, which features a traditional AGA, and dining space offers access to both the rear garden and the side of the property. Additionally three large reception rooms are complemented by a downstairs WC, storage and direct access to the garage. Throughout the property charming characteristics can be found including stain glass windows, high ceilings and original Edwardian features",
-		"location": "Kings Avenue, Woodford Green",
-		"postcode": "IG8",
+		"type": "Flat",
+		"bedrooms": 2,
+		"price": 325000,
+		"tenure": "Leasehold",
+		"description": "Apartment living at its best! Look no further than this spacious two bedroom apartment. As you enter this home you will walk into a spacious entrance hall that is larger than the average apartment. Located within walking distance to Silver street train station which serves Seven sister tube and Liverpool street station.",
+		"location": "Watermill Lane, Edmonton, N18",
+		"postcode": "N18",
 		"pictures": [
-			"./assets/images/prop4/203339_32681492_IMG_00_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_01_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_02_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_03_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_14_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_36_0000.jpeg"
+			"./assets/images/prop6/545_EDM230076_IMG_00_0000.jpeg",
+			"./assets/images/prop6/545_EDM230076_IMG_01_0000.jpeg",
+			"./assets/images/prop6/545_EDM230076_IMG_02_0000.jpeg",
+			"./assets/images/prop6/545_EDM230076_IMG_03_0000.jpeg",
+			"./assets/images/prop6/545_EDM230076_IMG_04_0000.jpeg",
+			"./assets/images/prop6/545_EDM230076_IMG_05_0000.jpeg"
 		],
-		"url": "properties/prop4.html",
+		"url": "properties/prop6.html",
 		"added": {
 			"month": "September",
-			"day": 14,
-			"year": 2022
+			"day": 30,
+			"year": 2023
 		}
 	},
 	{
 		"id": "prop7",
-		"type": "Bungalow",
-		"bedrooms": 5,
-		"price": 1750000,
+		"type": "Detached",
+		"bedrooms": 8,
+		"price": 4850000,
 		"tenure": "Freehold",
-		"description": "Having been in the family for three generations, internally this charming, over 4000 sq ft property offers ample potential for renovation to suit modern living. On the ground floor a large kitchen space, which features a traditional AGA, and dining space offers access to both the rear garden and the side of the property. Additionally three large reception rooms are complemented by a downstairs WC, storage and direct access to the garage. Throughout the property charming characteristics can be found including stain glass windows, high ceilings and original Edwardian features",
-		"location": "Kings Avenue, Woodford Green",
-		"postcode": "IG8",
+		"description": "This superb Grade 11 Listed Queen Anne house, set on the prestigious Crooms Hill, opposite Greenwich park, was built in the early years of the eighteenth century, it is uniquely set back from the road, with cast iron railing enclosing a paved courtyard, next to parking for multiple cars and three garages. It is being offered to the market for the first time in almost seventy years.",
+		"location": "Crooms Hill, Greenwich, London, SE10",
+		"postcode": "SE10",
 		"pictures": [
-			"./assets/images/prop4/203339_32681492_IMG_00_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_01_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_02_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_03_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_14_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_36_0000.jpeg"
+			"./assets/images/prop7/48910_CNS230212_IMG_00_0000.jpeg",
+			"./assets/images/prop7/48910_CNS230212_IMG_01_0000.jpeg",
+			"./assets/images/prop7/48910_CNS230212_IMG_02_0000.jpeg",
+			"./assets/images/prop7/48910_CNS230212_IMG_04_0000.jpeg",
+			"./assets/images/prop7/48910_CNS230212_IMG_06_0000.jpeg",
+			"./assets/images/prop7/48910_CNS230212_IMG_09_0000.jpeg"
 		],
-		"url": "properties/prop4.html",
+		"url": "properties/prop7.html",
 		"added": {
-			"month": "September",
-			"day": 14,
-			"year": 2022
+			"month": "March",
+			"day": 27,
+			"year": 2024
 		}
 	},
 	{
 		"id": "prop8",
-		"type": "Bungalow",
-		"bedrooms": 5,
-		"price": 1750000,
-		"tenure": "Freehold",
-		"description": "Having been in the family for three generations, internally this charming, over 4000 sq ft property offers ample potential for renovation to suit modern living. On the ground floor a large kitchen space, which features a traditional AGA, and dining space offers access to both the rear garden and the side of the property. Additionally three large reception rooms are complemented by a downstairs WC, storage and direct access to the garage. Throughout the property charming characteristics can be found including stain glass windows, high ceilings and original Edwardian features",
-		"location": "Kings Avenue, Woodford Green",
-		"postcode": "IG8",
+		"type": "Penthouse",
+		"bedrooms": 4,
+		"price": 8250000,
+		"tenure": "Leasehold",
+		"description": "Minimalist cubic design, wraparound glazing and a gallery-like ambience make a feature of Notting Hill Gate's expansive three-storey footprint. The deft hand of ng architecture is apparent throughout the considered renovation of this former banking hall. Occupying the entire third floor, an open-plan kitchen and reception room is a vast, light-flooded social setting. The space is smartly zoned with clean-line columns: at one end, the living area is backdropped by open shelving; at the other, a chequered wooden island brings natural warmth to the whitewashed kitchen - complete with modern integrated appliances. Beyond here, a sliding pocket door reveals a quiet study.",
+		"location": "Notting Hill Gate, Notting Hill, W11",
+		"postcode": "W11",
 		"pictures": [
-			"./assets/images/prop4/203339_32681492_IMG_00_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_01_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_02_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_03_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_14_0000.jpeg",
-			"./assets/images/prop4/203339_32681492_IMG_36_0000.jpeg"
+			"./assets/images/prop8/28746_BAY200154_IMG_00_0000.jpeg",
+			"./assets/images/prop8/28746_BAY200154_IMG_01_0000.jpeg",
+			"./assets/images/prop8/28746_BAY200154_IMG_02_0000.jpeg",
+			"./assets/images/prop8/28746_BAY200154_IMG_03_0000.jpeg",
+			"./assets/images/prop8/28746_BAY200154_IMG_04_0000.jpeg",
+			"./assets/images/prop8/28746_BAY200154_IMG_05_0000.jpeg"
 		],
-		"url": "properties/prop4.html",
+		"url": "properties/prop8.html",
 		"added": {
-			"month": "September",
-			"day": 14,
-			"year": 2022
+			"month": "October",
+			"day": 20,
+			"year": 2023
 		}
 	}
 ]
