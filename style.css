@@ -26,3 +26,20 @@ a {
 .property-link {
     width: 33%;
 }
+
+.property-image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.property-image-container {
+    display: block;
+    position: relative;
+}
+
+.favourite-icon.fa.fa-heart {
+    display: block;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+}
