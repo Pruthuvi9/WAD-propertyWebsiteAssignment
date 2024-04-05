@@ -1,7 +1,7 @@
 [
 	{
 		"id": "prop1",
-		"type": "Terraced",
+		"type": "House",
 		"bedrooms": 2,
 		"price": 385000,
 		"tenure": "Freehold",
@@ -26,7 +26,7 @@
 	},
 	{
 		"id": "prop2",
-		"type": "Mews",
+		"type": "House",
 		"bedrooms": 3,
 		"price": 1300000,
 		"tenure": "Freehold",
@@ -106,7 +106,7 @@
 		"price": 470000,
 		"tenure": "Leasehold",
 		"description": "This PET FRIENDLY APARTMENT has 2 BEDS and 2 BATHROOMS (en-suite to the main bedroom). DUAL ASPECT APARTMENT on the 8th floor of a BRAND NEW residential block, a stones throw from Meridian Water Train Station, bus routs and shops as well as eateries, coffee shops, park lands, the Internationally Renowned Walthamstow Wet Lands and Canal Ways ideal for ramblers, runners and cyclists alike.",
-		"location": "Meridian Way, London, N18 2DX",
+		"location": "Meridian Way, London",
 		"postcode": "N18",
 		"pictures": [
 			"./assets/images/prop5/252575_140923A807_IMG_00_0000.jpeg",
@@ -131,7 +131,7 @@
 		"price": 325000,
 		"tenure": "Leasehold",
 		"description": "Apartment living at its best! Look no further than this spacious two bedroom apartment. As you enter this home you will walk into a spacious entrance hall that is larger than the average apartment. Located within walking distance to Silver street train station which serves Seven sister tube and Liverpool street station.",
-		"location": "Watermill Lane, Edmonton, N18",
+		"location": "Watermill Lane, Edmonton",
 		"postcode": "N18",
 		"pictures": [
 			"./assets/images/prop6/545_EDM230076_IMG_00_0000.jpeg",
@@ -156,7 +156,7 @@
 		"price": 4850000,
 		"tenure": "Freehold",
 		"description": "This superb Grade 11 Listed Queen Anne house, set on the prestigious Crooms Hill, opposite Greenwich park, was built in the early years of the eighteenth century, it is uniquely set back from the road, with cast iron railing enclosing a paved courtyard, next to parking for multiple cars and three garages. It is being offered to the market for the first time in almost seventy years.",
-		"location": "Crooms Hill, Greenwich, London, SE10",
+		"location": "Crooms Hill, Greenwich, London",
 		"postcode": "SE10",
 		"pictures": [
 			"./assets/images/prop7/48910_CNS230212_IMG_00_0000.jpeg",
@@ -176,12 +176,12 @@
 	},
 	{
 		"id": "prop8",
-		"type": "Penthouse",
+		"type": "Apartment",
 		"bedrooms": 4,
 		"price": 8250000,
 		"tenure": "Leasehold",
 		"description": "Minimalist cubic design, wraparound glazing and a gallery-like ambience make a feature of Notting Hill Gate's expansive three-storey footprint. The deft hand of ng architecture is apparent throughout the considered renovation of this former banking hall. Occupying the entire third floor, an open-plan kitchen and reception room is a vast, light-flooded social setting. The space is smartly zoned with clean-line columns: at one end, the living area is backdropped by open shelving; at the other, a chequered wooden island brings natural warmth to the whitewashed kitchen - complete with modern integrated appliances. Beyond here, a sliding pocket door reveals a quiet study.",
-		"location": "Notting Hill Gate, Notting Hill, W11",
+		"location": "Notting Hill Gate, Notting Hill",
 		"postcode": "W11",
 		"pictures": [
 			"./assets/images/prop8/28746_BAY200154_IMG_00_0000.jpeg",
